@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soundboxd — Track songs you love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Soundboxd home">
+        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span class="logo-text">soundboxd</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#trending">Trending</a>
+        <a href="#friends">Friends</a>
+        <a href="#lists">Lists</a>
+        <a href="#members">Members</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" class="link-muted">Sign in</a>
+        <a href="#" class="btn btn-accent">Create account</a>
+        <form class="search-mini" role="search">
+          <input type="search" placeholder="Search" aria-label="Search songs" />
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Track songs you’ve heard.<br />Save those you want to hear.<br />Tell your friends what’s good.</h1>
+      <a href="#" class="btn btn-accent btn-lg">Get started — it’s free!</a>
+      <p class="hero-sub">The social network for music lovers. Also available on <a href="#">iOS</a> and <a href="#">Android</a>.</p>
+    </div>
+  </section>
+
+  <!-- ===== Stats strip ===== -->
+  <section class="stats-strip">
+    <div class="container stats-inner">
+      <p>Soundboxd lets you <strong>rate</strong>, <strong>review</strong> and <strong>track</strong> the music you listen to. Join a community of <strong>2M+</strong> listeners.</p>
+    </div>
+  </section>
+
+  <!-- ===== Search section ===== -->
+  <section class="search-section" id="search">
+    <div class="container">
+      <form class="search-big" role="search">
+        <input type="search" placeholder="Search for a song, album or artist…" aria-label="Search music" />
+        <button type="submit" class="btn btn-accent-2">Search</button>
+      </form>
+      <div class="search-tags">
+        <span>Popular right now:</span>
+        <a href="#">Pop</a>
+        <a href="#">Hip-Hop</a>
+        <a href="#">Indie</a>
+        <a href="#">Jazz</a>
+        <a href="#">Electronic</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trending albums ===== -->
+  <section class="section" id="trending">
+    <div class="container">
+      <div class="section-head">
+        <h2>Trending albums this week</h2>
+        <a href="#" class="link-more">More</a>
+      </div>
+
+      <ul class="album-grid">
+        <li class="album-card">
+          <div class="cover cover-1"><span class="cover-title">Midnight Echoes</span><span class="cover-artist">Aurora Lane</span></div>
+          <div class="album-rating">
+            <span class="wave" title="4.5 / 5" aria-label="Rated 4.5 out of 5">
+              <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar half"></i>
+            </span>
+          </div>
+        </li>
+        <li class="album-card">
+          <div class="cover cover-2"><span class="cover-title">Neon Rivers</span><span class="cover-artist">The Glasshouse</span></div>
+          <div class="album-rating">
+            <span class="wave" title="4 / 5" aria-label="Rated 4 out of 5">
+              <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar"></i>
+            </span>
+          </div>
+        </li>
+        <li class="album-card">
+          <div class="cover cover-3"><span class="cover-title">Paper Suns</span><span class="cover-artist">Mara Vale</span></div>
+          <div class="album-rating">
+            <span class="wave" title="5 / 5" aria-label="Rated 5 out of 5">
+              <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i>
+            </span>
+          </div>
+        </li>
+        <li class="album-card">
+          <div class="cover cover-4"><span class="cover-title">Static Bloom</span><span class="cover-artist">Kite Machine</span></div>
+          <div class="album-rating">
+            <span class="wave" title="3.5 / 5" aria-label="Rated 3.5 out of 5">
+              <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar half"></i><i class="bar"></i>
+            </span>
+          </div>
+        </li>
+        <li class="album-card">
+          <div class="cover cover-5"><span class="cover-title">Golden Hour</span><span class="cover-artist">Cassia Reed</span></div>
+          <div class="album-rating">
+            <span class="wave" title="4 / 5" aria-label="Rated 4 out of 5">
+              <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar"></i>
+            </span>
+          </div>
+        </li>
+        <li class="album-card">
+          <div class="cover cover-6"><span class="cover-title">Low Tide</span><span class="cover-artist">Harbor &amp; Oak</span></div>
+          <div class="album-rating">
+            <span class="wave" title="4.5 / 5" aria-label="Rated 4.5 out of 5">
+              <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar half"></i>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Friends reviews ===== -->
+  <section class="section section-alt" id="friends">
+    <div class="container">
+      <div class="section-head">
+        <h2>Recent reviews from friends</h2>
+        <a href="#" class="link-more">More</a>
+      </div>
+
+      <ul class="review-list">
+        <li class="review-card">
+          <div class="review-cover cover-3"></div>
+          <div class="review-body">
+            <div class="review-meta">
+              <span class="avatar" style="--a:var(--accent)">J</span>
+              <span class="review-user">jules_m</span>
+              <span class="review-track">Paper Suns <em>— Mara Vale</em></span>
+              <span class="wave small" title="5 / 5" aria-label="Rated 5 out of 5">
+                <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i>
+              </span>
+            </div>
+            <p>Absolutely floored by this one. Every track earns its place and the closer had me replaying it three times. Album of the year contender.</p>
+            <div class="review-actions"><span>♥ 128 likes</span><span>💬 14 comments</span></div>
+          </div>
+        </li>
+
+        <li class="review-card">
+          <div class="review-cover cover-1"></div>
+          <div class="review-body">
+            <div class="review-meta">
+              <span class="avatar" style="--a:var(--accent-2)">D</span>
+              <span class="review-user">deep_cuts</span>
+              <span class="review-track">Midnight Echoes <em>— Aurora Lane</em></span>
+              <span class="wave small" title="4.5 / 5" aria-label="Rated 4.5 out of 5">
+                <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar half"></i>
+              </span>
+            </div>
+            <p>Moody, patient, and gorgeously produced. Loses a half-note for a saggy middle but the highs are stratospheric.</p>
+            <div class="review-actions"><span>♥ 86 likes</span><span>💬 9 comments</span></div>
+          </div>
+        </li>
+
+        <li class="review-card">
+          <div class="review-cover cover-5"></div>
+          <div class="review-body">
+            <div class="review-meta">
+              <span class="avatar" style="--a:var(--accent-3)">R</span>
+              <span class="review-user">riffraff</span>
+              <span class="review-track">Golden Hour <em>— Cassia Reed</em></span>
+              <span class="wave small" title="4 / 5" aria-label="Rated 4 out of 5">
+                <i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar on"></i><i class="bar"></i>
+              </span>
+            </div>
+            <p>Summer in an album. Warm guitars, easy hooks. Not reinventing anything but it doesn’t need to.</p>
+            <div class="review-actions"><span>♥ 51 likes</span><span>💬 4 comments</span></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Popular lists ===== -->
+  <section class="section" id="lists">
+    <div class="container">
+      <div class="section-head">
+        <h2>Popular lists</h2>
+        <a href="#" class="link-more">More</a>
+      </div>
+
+      <ul class="list-grid">
+        <li class="list-card">
+          <div class="list-covers">
+            <span class="mini cover-2"></span><span class="mini cover-4"></span><span class="mini cover-6"></span><span class="mini cover-1"></span>
+          </div>
+          <h3>100 Songs That Defined the 2010s</h3>
+          <p class="list-by">by soundscribe · 100 songs</p>
+        </li>
+        <li class="list-card">
+          <div class="list-covers">
+            <span class="mini cover-3"></span><span class="mini cover-5"></span><span class="mini cover-1"></span><span class="mini cover-4"></span>
+          </div>
+          <h3>Late Night Drives</h3>
+          <p class="list-by">by neonmiles · 42 songs</p>
+        </li>
+        <li class="list-card">
+          <div class="list-covers">
+            <span class="mini cover-6"></span><span class="mini cover-2"></span><span class="mini cover-5"></span><span class="mini cover-3"></span>
+          </div>
+          <h3>Debut Albums That Hit Hard</h3>
+          <p class="list-by">by firsttracks · 28 songs</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-cta">
+        <p>Ready to start your musical diary?</p>
+        <a href="#" class="btn btn-accent">Create your free account</a>
+      </div>
+      <nav class="footer-nav">
+        <a href="#">About</a>
+        <a href="#">News</a>
+        <a href="#">Pro</a>
+        <a href="#">Help</a>
+        <a href="#">Terms</a>
+        <a href="#">API</a>
+      </nav>
+      <p class="footer-copy">Soundboxd — a fan-made demo inspired by Letterboxd, for music.</p>
+    </div>
+  </footer>
+</body>
+</html>
